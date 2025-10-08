@@ -182,8 +182,6 @@ docker-compose down
 # Start the server
 npm start
 
-# Or for development with auto-restart
-npm run dev
 ```
 
 The backend will be available at `http://localhost:5000`
