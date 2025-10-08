@@ -25,7 +25,7 @@ A simple real-time chat room application built with Node.js, Socket.IO, and Mong
 - **Tag-based Execution**: Run tests by tags (@smoke, @regression, @critical, etc.)
 - **Single Command Execution**: Run tests, generate reports, and open in browser with one command
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have the following installed:
 
@@ -35,9 +35,9 @@ Before you begin, ensure you have the following installed:
 
 > **Note**: This project uses MongoDB running in a Docker container, so you don't need to install MongoDB directly on your system.
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
-### 🚀 Quick Setup (Automated)
+### Quick Setup (Automated)
 
 For a quick setup, use the automated script:
 
