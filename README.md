@@ -2,7 +2,7 @@
 
 A simple real-time chat room application built with Node.js, Socket.IO, and MongoDB, featuring comprehensive BDD testing with Cypress.
 
-## 🚀 Features
+## Features
 
 ### Frontend Features
 - **User Authentication**: Login with hardcoded credentials
@@ -50,10 +50,10 @@ chmod +x setup.sh
 ```
 
 This script will:
-- ✅ Verify Node.js, npm, and Docker installation
-- ✅ Install all dependencies
-- ✅ Configure MongoDB Docker container
-- ✅ Provide usage instructions and demo credentials
+- Verify Node.js, npm, and Docker installation
+- Install all dependencies
+- Configure MongoDB Docker container
+- Provide usage instructions and demo credentials
 
 ### Manual Setup (Alternative)
 
@@ -174,7 +174,7 @@ docker-compose up -d
 docker-compose down
 ```
 
-## 🚀 Running the Application
+## Running the Application
 
 ### Backend + Database
 
@@ -202,7 +202,7 @@ Use these hardcoded credentials for testing:
 | Juan     | password456 |
 | Charly   | password789 |
 
-## 🧪 Running AQA Tests
+## Running AQA Tests
 
 ### Prerequisites for Testing
 
@@ -297,7 +297,7 @@ cypress/
 └── videos/                # Cypress videos
 ```
 
-## 📊 Test Coverage
+## Test Coverage
 
 ### User Stories Covered
 
@@ -366,7 +366,7 @@ cypress/
 - **@authentication**: Authentication tests (16 scenarios)
 - **@basic**: Basic functionality tests (12 scenarios)
 
-## 🔧 Configuration
+## Configuration
 
 
 ### Cypress Configuration
@@ -387,7 +387,7 @@ The `cypress-cucumber-preprocessor.config.js` file contains:
 - JSON output configuration
 - Message output settings
 
-## 📈 Test Reports
+## Test Reports
 
 ### Mochawesome HTML Reports
 
@@ -411,7 +411,7 @@ After running tests, you'll find:
 - **Assets**: `cypress/reports/mochawesome-report/assets/` - Report styling and scripts
 
 
-## 🏷️ Tag System
+## Tag System
 
 ### Available Tags
 
@@ -455,7 +455,7 @@ Feature: Multi-User Chat
 - **Full Testing**: Use `@regression` for complete validation
 - **Feature Testing**: Use specific tags like `@chat` or `@login`
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -548,7 +548,7 @@ chat-app/
 └── README.md                         # This file
 ```
 
-## 🎯 Bonus Features
+## Other Features
 
 - **Real-time Notifications**: User join/leave notifications
 - **Message Persistence**: All messages saved to database
@@ -563,7 +563,7 @@ chat-app/
 - **Evidence Integration**: Screenshots and videos embedded in reports
 - **Automated Setup**: One-command setup script for quick installation
 
-## 📞 Support
+## Support
 
 For issues or questions:
 
@@ -573,7 +573,7 @@ For issues or questions:
 4. Check that the application starts without errors
 5. Review test logs for specific error messages
 
-## 🏆 Success Criteria
+## Success Criteria
 
 ✅ **AQA Framework**: Cypress with BDD support and Cucumber preprocessor  
 ✅ **Frontend**: Modern, responsive chat interface  
